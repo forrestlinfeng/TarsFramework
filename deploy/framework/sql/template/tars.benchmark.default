@@ -1,0 +1,25 @@
+<tars>
+  <application>
+
+      <client>
+      </client>
+
+      <server>
+      </server>
+  </application>
+</tars>
+<benchmark>
+    ##压测线程数量
+    totalThreads=6
+    ##单线程最大qps
+    maxtThreadSpeed=25000
+    ##共享内存队列配置
+    shmBase=202005010
+    shmSize=1048576
+    ##NODE的obj名称
+    nodeObj=benchmark.NodeServer.NodeObj
+    
+    ##测试开辟send/recv内存大小
+    sendSize=4194304
+    recvSize=8388608
+</benchmark>
